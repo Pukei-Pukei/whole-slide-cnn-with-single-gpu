@@ -35,10 +35,15 @@ python main.py configs/leaf_224_train.py
 
 ## Implementation Scheme
 
-![My Image](figures/MyWSI%20implementation-1.png)
-![My Image](figures/MyWSI%20implementation-2.png)
-![My Image](figures/MyWSI%20implementation-3.jpg)
-
+<p align="left">
+<img src="https://user-images.githubusercontent.com/105025612/221511513-29bb2d9d-662e-47e9-a7ec-f0f90c3d5f49.png">
+</p>
+<p align="left">
+<img src="https://user-images.githubusercontent.com/105025612/221511671-9d140ec7-c5e5-4f8e-8df4-19ad189393f4.png">
+</p>
+<p align="left">
+<img src="https://user-images.githubusercontent.com/105025612/221511694-6954721e-44ff-4014-9a3b-917536d95232.jpg">
+</p>
 
 
 ## Experiments
