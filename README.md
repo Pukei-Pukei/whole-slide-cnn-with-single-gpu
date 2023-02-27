@@ -5,7 +5,7 @@ Visit https://github.com/aetherAI/whole-slide-cnn to see the original implementa
 
 
 
-# Requirements
+## Requirements
 matplotlib==3.6.2  
 numpy==1.23.5  
 pandas==1.4.2  
@@ -20,7 +20,7 @@ yacs==0.1.8
 
 
 
-# Usage
+## Usage
 
 ```bash
 python main.py your/config/path.py
@@ -33,7 +33,7 @@ python main.py configs/leaf_224_train.py
 "configs/leaf_224_train.py" is for [Plant Pathology 2021 - FGVC8](https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8/data) Dataset
 
 
-# Implementation Scheme
+## Implementation Scheme
 
 ![My Image](figures/MyWSI%20implementation-1.png)
 ![My Image](figures/MyWSI%20implementation-2.png)
@@ -41,7 +41,7 @@ python main.py configs/leaf_224_train.py
 
 
 
-# Experiments
+## Experiments
 
 Dataset : [Plant Pathology 2021 - FGVC8](https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8/data)  
 Epoch : 1 (with 15833 imgs for train and 2799 imgs for valid)  
@@ -57,7 +57,7 @@ private score : 0.79438 (late submission on Plant Pathology 2021 - FGVC8 kaggle 
 
 
 
-# Considerations
+## Considerations
 
 Batch normalization shouldn't be used because the extractor is updated via gradient accumulation. As a result, I opted for NFNet over ResNet for the extractor.
 
